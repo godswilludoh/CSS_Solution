@@ -1,0 +1,112 @@
+body{
+	padding:10px;
+	margin:1%;
+
+}
+
+header{
+	background-color: #530fad;
+	background-image: url(images/flywheel.jpg);
+	background-size: 100%;
+	padding:20px;
+}
+h1{
+	text-align: center;
+	color: #C0C0C0;
+	font-size:xx-large;
+	text-transform: uppercase;
+}
+nav a{
+	background-color:#ffcf79;
+	color:#800080;
+	display: inline-block;
+	margin:6%;
+	text-decoration: none;
+
+	-webkit-border-radius: 3;
+	-moz-border-radius: 3;
+	-o-border-radius: 3;
+	border-radius: 5px;
+
+	padding: 2%;
+	text-align: center;
+	vertical-align: middle;
+	width:100px;
+	height: 15px;
+
+}
+
+.active{
+	background-color: #FFFFFF;
+}
+/*Table Styling*/
+table{
+	padding: 2%;
+    margin: 0 auto;
+	font-size:1.2em;
+	width:75%;
+	line-height: 3em;
+	font-family: 'Karla', sans-serif;
+	border-radius:5px 5px 0 0;
+	overflow: hidden;
+}
+/* Table Header Styling */
+ th{
+	background-color: #BFDF32;
+	padding:1.5% 1.5%;
+	color: #FFFFFF;
+	background: linear-gradient(#BFDF32,#53650c);
+	opacity:1;
+	font-size: 100%;
+}
+/*Make the table text in two columns to the right centered*/
+th, tr td{
+	text-align: center;
+}
+
+/*Make the table text in the column to the left left-aligned*/
+th:first-child, tr td:first-child {
+    text-align: left;
+}
+
+/* Set opacity of table rows*/
+tr td{
+	opacity:0.8;
+}
+tr:hover td{
+	opacity:1;
+	color: #339933;
+    font-weight: bold;
+    font-size:100%;
+    line-height: 60px;
+}
+td{
+	background-color: #90EE90;
+	padding-left:2%;
+	padding-right:2%;
+	border-bottom: 2px solid #ffffff;
+	color:#000000;
+	text-shadow: 3px 3px 4px #f3f3f3;
+}
+
+
+.left{
+	background-color: #848E66;
+	width: 24%;
+	float:left;
+	padding: 5% 0;
+}
+.left img {
+	border: solid 1px #000000;
+	width: 80%;
+	margin: 10%;
+}
+
+.right{
+	width:74%;
+	display: inline-block;
+	padding-left: 2%;
+}
+h2{
+	color:#964B00;
+}
